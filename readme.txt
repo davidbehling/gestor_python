@@ -1,3 +1,19 @@
+Estudo focado em Python com tkinter.
+
+Esse projeto tem como base uma aplicação de gestão financeira.
+
+A aplicação as seguinte funcionalidades:
+
+- Dashboard.  
+- Receitas
+- Usuários
+- Categorias
+- Bancos
+- Tipos de pagamaneto
+- Importação
+- Exportação
+
+
 import pdb; pdb.set_trace()
 
 sudo apt-get install python3-tk
