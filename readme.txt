@@ -122,7 +122,7 @@ python3 seeders/seed_david.py
 - Editar;
 - Apagar.
 
-![Despesas](https://github.com/davidbehling/gestor_python/blob/main/public/images/07_Bancos.png)
+![Despesas](https://raw.githubusercontent.com/davidbehling/gestor_python/main/public/images/07_Bancos.png)
 
 
 * Tipo de Pagamentos.
