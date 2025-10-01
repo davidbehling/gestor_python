@@ -31,15 +31,11 @@ pip install sqlite3
 pip install unidecode
 
 
-
-
 python3 create_db.py
 
 python3 seeders/seed_start.py
 
 python3 seeders/seed_david.py
-
-
 
 
 * Dashboard.
@@ -53,9 +49,9 @@ python3 seeders/seed_david.py
 - Rosca;
 - Barras.
 
-![01_DashBoard](public/images/01_DashBoard.png)
+![DashBoard](https://github.com/davidbehling/gestor_python/blob/main/public/images/01_DashBoard.png)
 
-![02_DashBoard](https://github.com/davidbehling/gestor_python/raw/main/public/images/02_DashBoard.png)
+![DashBoard](https://github.com/davidbehling/gestor_python/blob/main/public/images/02_DashBoard.png)
 
 
 * Despesas.
@@ -122,7 +118,7 @@ python3 seeders/seed_david.py
 - Editar;
 - Apagar.
 
-![Despesas](https://raw.githubusercontent.com/davidbehling/gestor_python/main/public/images/07_Bancos.png)
+![Despesas](https://github.com/davidbehling/gestor_python/blob/main/public/images/07_Bancos.png)
 
 
 * Tipo de Pagamentos.
