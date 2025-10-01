@@ -53,9 +53,9 @@ python3 seeders/seed_david.py
 - Rosca;
 - Barras.
 
-![01_DashBoard](https://github.com/davidbehling/gestor_python/blob/main/public/images/01_DashBoard.png)
+![01_DashBoard](https://github.com/davidbehling/gestor_python/raw/main/public/images/01_DashBoard.png)
 
-![02_DashBoard](https://github.com/davidbehling/gestor_python/blob/main/public/images/02_DashBoard.png)
+![02_DashBoard](https://github.com/davidbehling/gestor_python/raw/main/public/images/02_DashBoard.png)
 
 
 * Despesas.
