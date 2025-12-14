@@ -1,26 +1,22 @@
-markdown
-
 # 🧮 **Gestão Financeira em Python**
 
-Este projeto é uma aplicação de gestão financeira desenvolvida em Python com interface gráfica usando Tkinter. 
+Este projeto é uma **aplicação de gestão financeira desenvolvida em Python** com interface gráfica usando **Tkinter**. Ele permite organizar receitas, despesas, categorias, usuários e realizar importação/exportação de dados.
 
-Ele permite organizar receitas, despesas, categorias, usuários e realizar importação/exportação de dados.
-
-O objetivo é servir tanto como ferramenta prática quanto como estudo/portfólio de Python com interface gráfica e banco de dados local.
+O objetivo é servir tanto como ferramenta prática quanto como **estudo/portfólio de Python com interface gráfica e banco de dados local**.
 
 
  📌 Visão Geral
 
 A aplicação oferece funcionalidades como:
 - 📊 Dashboard com gráficos e filtros por período e usuário
-- 💰 Gestão de Despesas
-- 💵 Gestão de Receitas
-- 👤 Cadastro e edição de Usuários
-- 🏷️ Categorias de transações
-- 🏦 Bancos
-- 💳 Tipos de Pagamentos
-- 📥 Importação de CSV
-- 📤 Exportação de dados
+- 💰 Gestão de **Despesas**
+- 💵 Gestão de **Receitas**
+- 👤 Cadastro e edição de **Usuários**
+- 🏷️ **Categorias** de transações
+- 🏦 **Bancos**
+- 💳 **Tipos de Pagamentos**
+- 📥 **Importação** de CSV
+- 📤 **Exportação** de dados
 
 
  🏗️ Estrutura do Projeto
@@ -43,45 +39,45 @@ gestor_python/
 
  ⚙️ Como Rodar Localmente
 
-# Pré-requisitos
+# **Pré-requisitos**
 
-Certifique-se de ter o Python 3.x instalado.
+Certifique-se de ter o **Python 3.x** instalado.
 
-# Instalação de Dependências
+# **Instalação de Dependências**
 
 Execute no terminal:
 
-```bash
+bash
 pip install pillow matplotlib tkcalendar sqlalchemy unidecode
-```
+`
 
-> Caso ainda não tenha o Tkinter, instale conforme seu OS (geralmente já vem com Python).
+> Caso ainda não tenha o **Tkinter**, instale conforme seu OS (geralmente já vem com Python).
 
-# Criar e Popular Banco de Dados
+# **Criar e Popular Banco de Dados**
 
-```bash
+bash
 python3 create_db.py
 python3 seeders/seed_start.py
 python3 seeders/seed_david.py
-```
 
-# Iniciar a Aplicação
 
-```bash
+# **Iniciar a Aplicação**
+
+bash
 python3 app.py
-```
-
- 📥 Importação / Exportação
-
-A aplicação permite que você importe CSVs de transações e exporte dados para análise ou uso externo.
 
 
- 🚀 Tecnologias Utilizadas
+ 📥 **Importação / Exportação**
 
-- Python 3
-- Tkinter – GUI nativa do Python
-- SQLite – Banco de dados leve e local
-- SQLAlchemy – ORM para manipular o banco
-- Matplotlib – Geração de gráficos
-- Tkcalendar – Componente de seleção de datas
+A aplicação permite que você **importe CSVs de transações** e **exporte dados** para análise ou uso externo.
+
+
+ 🚀 **Tecnologias Utilizadas**
+
+* **Python 3**
+* **Tkinter** – GUI nativa do Python
+* **SQLite** – Banco de dados leve e local
+* **SQLAlchemy** – ORM para manipular o banco
+* **Matplotlib** – Geração de gráficos
+* **Tkcalendar** – Componente de seleção de datas
 
