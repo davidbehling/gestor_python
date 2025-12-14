@@ -1,4 +1,4 @@
-# 🧮 Gestão Financeira em Python
+# 🧮 **Gestão Financeira em Python**
 
 Este projeto é uma aplicação de gestão financeira desenvolvida em Python com interface gráfica usando Tkinter. 
 
