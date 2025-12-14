@@ -1,148 +1,117 @@
-Estudo focado em Python com tkinter.
+# 🧮 Gestão Financeira em Python
 
-Esse projeto tem como base uma aplicação de gestão financeira.
+Este projeto é uma aplicação de gestão financeira desenvolvida em Python com interface gráfica usando Tkinter. 
 
-A aplicação as seguinte funcionalidades:
+Ele permite organizar receitas, despesas, categorias, usuários e realizar importação/exportação de dados.
 
-- Dashboard.  
-- Receitas
-- Usuários
-- Categorias
-- Bancos
-- Tipos de pagamaneto
-- Importação
-- Exportação
+O objetivo é servir tanto como ferramenta prática quanto como **estudo/portfólio de Python com interface gráfica e banco de dados local**.
 
 
-import pdb; pdb.set_trace()
+## 📌 Visão Geral
 
-sudo apt-get install python3-tk
-
-pip install pillow
-
-pip install matplotlib
-
-pip install tkcalendar
-
-pip install sqlalchemy
-
-pip install sqlite3
-
-pip install unidecode
+A aplicação oferece funcionalidades como:
+- 📊 Dashboard com gráficos e filtros por período e usuário
+- 💰 Gestão de **Despesas**
+- 💵 Gestão de **Receitas**
+- 👤 Cadastro e edição de **Usuários**
+- 🏷️ **Categorias** de transações
+- 🏦 **Bancos**
+- 💳 **Tipos de Pagamentos**
+- 📥 **Importação** de CSV
+- 📤 **Exportação** de dados
 
 
+## 🏗️ Estrutura do Projeto
+
+gestor_python/
+├── components/              # Componentes de interface e lógica separada
+├── icons/                   # Ícones e imagens utilizadas (UI)
+├── models/                  # Modelos de dados (ORM)
+├── public/images/           # Imagens de exemplo exibidas no README
+├── repository/              # Repositório de operações com model
+├── seeders/                 # Scripts para popular dados iniciais
+├── services/                # Serviços de negócio
+├── views/                   # Telas e janelas do Tkinter
+├── app.py                   # Arquivo principal para iniciar a aplicação
+├── create_db.py             # Script para criar a base de dados
+├── database.py              # Configuração de conexão com o SQLite
+├── global_values.py         # Variáveis globais de configuração
+└── dados.db                 # Banco de dados SQLite
+
+
+## 📷 Telas da Aplicação
+
+<!-- Pode mostrar imagens que já estão no repositório -->
+![Dashboard](public/images/01_DashBoard.png)
+![Despesas](public/images/03_Despesas.png)
+![Receitas](public/images/04_Receitas.png)
+
+
+## ⚙️ Como Rodar Localmente
+
+### Pré-requisitos
+
+Certifique-se de ter o Python 3.x instalado.
+
+### Instalação de Dependências
+
+Execute no terminal:
+
+```bash
+pip install pillow matplotlib tkcalendar sqlalchemy unidecode
+````
+
+> Caso ainda não tenha o Tkinter, instale conforme seu OS (geralmente já vem com Python).
+
+### Criar e Popular Banco de Dados
+
+```bash
 python3 create_db.py
-
 python3 seeders/seed_start.py
-
 python3 seeders/seed_david.py
+```
+
+### Iniciar a Aplicação
+
+```bash
+python3 app.py
+```
 
 
-* Dashboard.
+## 📥 Importação / Exportação
 
-= Busca:
-- Período de datas;
-- Usuário;
-- Categoria: Casa, Combustível...
-
-= Gráficos:
-- Rosca;
-- Barras.
-
-![DashBoard](https://github.com/davidbehling/gestor_python/blob/main/public/images/01_DashBoard.png)
-
-![DashBoard](https://github.com/davidbehling/gestor_python/blob/main/public/images/02_DashBoard.png)
+A aplicação permite que você **importe CSVs de transações** e **exporte dados** para análise ou uso externo.
 
 
-* Despesas.
+## 🚀 Tecnologias Utilizadas
 
-= Ações:
-- Adicionar;
-- Editar;
-- Apagar;
-- Pagar: quando crédito ou crediário.
-
-= Filtro:
-- Período de datas;
-- Usuários;
-- Categoria: Casa, Combustível...
-- Pagamentos: Débito, Dinheiro...
-- Status: Todos, Pago ou Pendente.
-
-![Despesas](https://github.com/davidbehling/gestor_python/blob/main/public/images/03_Despesas.png)
+* **Python 3**
+* **Tkinter** – GUI nativa do Python
+* **SQLite** – Banco de dados leve e local
+* **SQLAlchemy** – ORM para manipular o banco
+* **Matplotlib** – Geração de gráficos
+* **Tkcalendar** – Componente de seleção de datas
 
 
-* Receiras.
+## 🧪 Próximas Melhorias (Ideias)
 
-= Ações:
-- Adicionar;
-- Editar;
-- Apagar.
-
-= Filtro:
-- Período de datas
-- Usuários
-- Categoria: Casa, Combustível...
-- Pagamentos: Débito, Dinheiro...
-
-![Despesas](https://github.com/davidbehling/gestor_python/blob/main/public/images/04_Receitas.png)
+✨ Adicionar testes automatizados
+✨ Suporte a usuários com login e senha
+✨ Exportação para PDF ou Excel
+✨ Melhorias na interface com temas modernos
+✨ Empacotamento como aplicativo executável
 
 
-* Usuários.
+## 🤝 Contribuição
 
-= Ações:
-- Adicionar;
-- Editar;
-- Apagar.
+Contribuições, sugestões e melhorias são **bem-vindas**!
 
-![Despesas](https://github.com/davidbehling/gestor_python/blob/main/public/images/05_Usuarios.png)
-
-
-* Categorias.
-
-= Ações:
-- Adicionar;
-- Editar;
-- Apagar.
-
-= Filtro:
-- Todos, Despesa ou Receita.
-
-![Despesas](https://github.com/davidbehling/gestor_python/blob/main/public/images/06_Categorias.png)
+1. Faça um fork ✨
+2. Crie sua branch: `feature/nome-da-feature`
+3. Faça commit das alterações
+4. Envie um Pull Request 📩
 
 
-* Bancos.
+## 📄 Licença
 
-= Ações:
-- Adicionar;
-- Editar;
-- Apagar.
-
-![Despesas](https://github.com/davidbehling/gestor_python/blob/main/public/images/07_Bancos.png)
-
-
-* Tipo de Pagamentos.
-
-= Ações:
-- Adicionar;
-- Editar;
-- Apagar.
-
-= Filtro:
-- Usuário.
-
-![Despesas](https://github.com/davidbehling/gestor_python/blob/main/public/images/08_Tipos_de_pagamento.png)
-
-
-* Importação.
-
-Importação csv por usuário de acordo com o modelo.
-
-![Despesas](https://github.com/davidbehling/gestor_python/blob/main/public/images/09_Importacao.png)
-
-
-* Exportação.
-
-Exportação csv por usuário.
-
-![Despesas](https://github.com/davidbehling/gestor_python/blob/main/public/images/10_Exportacao.png)
+Este projeto é open-source e livre para uso e modificação.
