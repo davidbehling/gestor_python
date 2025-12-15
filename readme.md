@@ -271,3 +271,61 @@ python3 seeders/seed_david.py
 ```bash
 python3 app.py
 ```
+
+## 📦 Package / Pacotes
+
+- pip install pillow
+
+- pip install matplotlib
+
+- pip install tkcalendar
+
+- pip install sqlalchemy
+
+- pip install sqlite3
+
+- pip install unidecode
+
+
+### 🖥️ Tela Inicial (Dashboard - Gráfico de rosca)
+
+![Tela Inicial](https://github.com/davidbehling/gestor_python/blob/main/public/images/01_DashBoard.png)
+
+### 🖥️ Tela Inicial (Dashboard - Gráfico de barras)
+
+![Tela Inicial](https://github.com/davidbehling/gestor_python/blob/main/public/images/01_DashBoard.png)
+
+### 🖥️ Tela de Despesas
+
+![Tela Inicial](https://github.com/davidbehling/gestor_python/blob/main/public/images/03_Despesas.png)
+
+### 🖥️ Tela de Receiras
+
+![Tela Inicial](https://github.com/davidbehling/gestor_python/blob/main/public/images/04_Receitas.png)
+
+### 🖥️ Tela de Usuários
+
+![Tela Inicial](https://github.com/davidbehling/gestor_python/blob/main/public/images/05_Usuarios.png)
+
+
+### 🖥️ Tela de Categorias
+
+![Tela Inicial](https://github.com/davidbehling/gestor_python/blob/main/public/images/06_Categorias.png)
+
+
+### 🖥️ Tela de Bancos
+
+![Tela Inicial](https://github.com/davidbehling/gestor_python/blob/main/public/images/07_Bancos.png)
+
+
+### 🖥️ Tela de Tipos de Pagamentos
+
+![Tela Inicial](https://github.com/davidbehling/gestor_python/blob/main/public/images/08_Tipos_de_pagamento.png)
+
+### 🖥️ Tela de Tipos de Importação
+
+![Tela Inicial](https://github.com/davidbehling/gestor_python/blob/main/public/images/09_Importacao.png)
+
+### 🖥️ Tela de Tipos de Exṕortação
+
+![Tela Inicial](https://github.com/davidbehling/gestor_python/blob/main/public/images/10_Exportacao.png)
