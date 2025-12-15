@@ -1,5 +1,13 @@
 # 🧮 Gestão Financeira em Python
 
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)
+![Tkinter](https://img.shields.io/badge/Tkinter-GUI-1f77b4?style=flat&logo=python&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-3-003B57?style=flat&logo=sqlite&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-D71F00?style=flat&logo=sqlalchemy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Charts-11557c?style=flat&logo=plotly&logoColor=white)
+![Status](https://img.shields.io/badge/status-concluído-green?style=flat)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat)
+
 Este projeto é uma aplicação de gestão financeira desenvolvida em Python com interface gráfica usando Tkinter. 
 
 Ele permite organizar receitas, despesas, categorias, usuários e realizar importação/exportação de dados.
